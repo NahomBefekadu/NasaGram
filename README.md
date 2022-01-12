@@ -4,6 +4,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You can view the live site at : https://61de30a41ccfda0007a3e235--gallant-banach-ccf300.netlify.app/ 
+
 - To run this locally create your own .env file as shown in the .env_Sample and add your own api key
 
 - Choose small ranges for dates when picking a start and end date, to lessen load.
