@@ -13,7 +13,7 @@ function Like() {
   const iconStyle2 = { color: "red", size: "3em" };
   return (
     <div className="like">
-      <a
+      <button
         href="#"
         className={likes ? "like__heart active" : "like__heart"}
         onClick={toggleLike}
@@ -23,7 +23,7 @@ function Like() {
           className={likes ? "like__iconLive" : "like__icons"}
           style={likes ? iconStyle1 : iconStyle2}
         />
-      </a>
+      </button>
     </div>
   );
 }

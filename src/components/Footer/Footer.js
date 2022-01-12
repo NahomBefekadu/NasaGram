@@ -21,6 +21,7 @@ export default function Footer() {
             href="https://api.nasa.gov/#apod"
             target="_blank"
             aria-describedby="This is a link to the api"
+            rel="noreferrer"
           >
             API (opens in a new window)
           </a>

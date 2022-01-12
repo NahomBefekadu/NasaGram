@@ -4,6 +4,7 @@
   margin: 1rem;
   padding: 0.5em 1em;
   border-radius: 15%;
+  cursor: pointer;
 }
 .like__heart {
   background-color: white;
