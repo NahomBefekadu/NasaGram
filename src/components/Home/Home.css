@@ -1,0 +1,59 @@
+.Home {
+  margin: 1rem;
+}
+
+/* Date picker */
+.Home__Datepicker {
+  box-shadow: 0 4px 8px 0 rgba(78, 7, 7, 0.2);
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+}
+.Home__DatepickerStartDate > span {
+  color: #025039;
+  font-weight: bold;
+}
+.Home__DatepickerEndDate > span {
+  color: #500902;
+  font-weight: bold;
+}
+/*Loader*/
+.Home__Loader {
+  display: flex;
+  justify-content: center;
+}
+
+/* Cards */
+.Home__nasaImg {
+  max-height: 300px;
+  object-position: center;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+.Home__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  align-items: flex-start;
+}
+.Home__container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.Home__container:hover {
+  transform: translateY(-0.25em);
+  box-shadow: 0 0.5em 0.5em -0.4em #025039;
+}
+.Home__containerInformation {
+  padding: 2px 16px;
+}
+.Home__containerBody {
+}
+.Home__containerFooter {
+  margin: 1rem;
+}

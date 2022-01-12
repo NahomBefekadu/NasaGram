@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Getting Started with Create React App NasaGram
+
+![Nasagram]("https://github.com/NahomBefekadu/NasaGram/master/public/nasag.png")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+- To run this locally create your own .env file as shown in the .env_Sample and add your own api key
+
+- Choose small ranges for dates when picking a start and end date, to lessen load.
 
 ## Available Scripts
 

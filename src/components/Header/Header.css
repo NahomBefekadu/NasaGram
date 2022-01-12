@@ -1,0 +1,30 @@
+.Header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #090815;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  color: white;
+  font-size: 2rem;
+  justify-content: space-between;
+}
+
+.Header__logoImg {
+  width: 40px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 5px;
+}
+.Header__navbar {
+  margin-right: 4rem;
+}
+@media (max-width: 500px) {
+  .Header {
+    flex-direction: column;
+  }
+  .Header__navbar {
+    margin: 0;
+  }
+}

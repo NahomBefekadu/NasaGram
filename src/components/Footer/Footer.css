@@ -1,0 +1,31 @@
+.Footer {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #090815;
+  color: white;
+  margin-top: 100vh;
+}
+.Footer__logo {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+.Footer__logoImg {
+  width: 40px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 5px;
+}
+.Footer_info {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.Footer_info > p {
+  padding-left: 2rem;
+}
+.Footer_info > p > a:visited {
+  color: red;
+}
