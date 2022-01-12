@@ -1,6 +1,6 @@
 # Getting Started with Create React App NasaGram
 
-![Nasagram]("https://github.com/NahomBefekadu/NasaGram/master/public/nasag.png")
+<img src="https://raw.githubusercontent.com/NahomBefekadu/NasaGram/master/public/Images/nasag.png">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
