@@ -8,14 +8,14 @@ import Globe from "../Globe/Globe";
 import moment from "moment";
 
 export default function Home() {
+  // initialize state
   const [startDate, setStartDate] = useState(new Date("2017/07/08"));
   const [endDate, setEndDate] = useState(new Date("2017/07/10"));
   const [isLoading, setIsLoading] = useState(false);
 
   var start = moment(startDate).format("YYYY-MM-DD");
   var end = moment(endDate).format("YYYY-MM-DD");
-  console.log(start);
-  console.log(end);
+
   const API_KEY = process.env.REACT_APP_NASA_KEY;
   const fetchurl = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&start_date=${start}&end_date=${end}`;
 
@@ -86,27 +86,3 @@ export default function Home() {
     </div>
   );
 }
-//<img className="Home__nasaImg" src={`${images.url}`} alt={images.title} />
-/*
-
-        <div className="Home__container">
-          <img
-            className="Home__nasaImg"
-            src={`${images.url}`}
-            alt={images.title}
-          />
-          <div className="Home__containerInformation">
-            <h2>{images.title}</h2>
-            <h3>{images.date}</h3>
-            <div className="Home__containerBody">
-              <details>
-                <p>{images.explanation}</p>
-              </details>
-            </div>
-          </div>
-          <div className="Home__containerFooter">
-            <Like />
-          </div>
-        </div>
-
-*/

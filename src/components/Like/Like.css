@@ -17,7 +17,14 @@
   animation: pulse 1s;
   background-color: #e50914;
 }
+.like__iconLive {
+  animation: explode 1s;
+}
+.like__icons:hover {
+  animation: pulseicon 1s infinite;
+}
 
+/* Animations */
 @keyframes pulse {
   0% {
     box-shadow: 0 0 0 0 #ef6eae;
@@ -65,11 +72,4 @@
   100% {
     transform: translate(0, 60%) scale(1.1, 1.7);
   }
-}
-
-.like__iconLive {
-  animation: explode 1s;
-}
-.like__icons:hover {
-  animation: pulseicon 1s infinite;
 }

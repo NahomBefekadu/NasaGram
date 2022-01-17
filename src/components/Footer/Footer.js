@@ -9,13 +9,13 @@ export default function Footer() {
           src={
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/1200px-NGC_4414_%28NASA-med%29.jpg"
           }
-          alt="Marsplanet"
+          alt="Logo"
         />
         <span>NasaGram</span>
       </div>
       <div className="Footer_info">
         <p>
-          Brought to you by NASA's Image{" "}
+          Brought to you by NASA's Image
           <a
             className="Footer_link"
             href="https://api.nasa.gov/#apod"

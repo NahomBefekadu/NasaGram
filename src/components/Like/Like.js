@@ -4,11 +4,13 @@ import "./Like.css";
 
 function Like() {
   const [likes, setLikes] = useState(false);
-  //"public\Images\heart-431.svg
+
+  //toggle state of likes
   const toggleLike = (e) => {
     e.preventDefault();
     setLikes(!likes);
   };
+  //styles for different state of likes
   const iconStyle1 = { color: "white", size: "3em" };
   const iconStyle2 = { color: "red", size: "3em" };
   return (

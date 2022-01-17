@@ -10,7 +10,7 @@ export default function Header() {
           src={
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/1200px-NGC_4414_%28NASA-med%29.jpg"
           }
-          alt="Marsplanet"
+          alt="Logo"
         />
         <span>NasaGram</span>
       </div>
